@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+}
+
+div{
+    margin:3vh;
+}
+
+img{
+    border-radius: 60%;
+    
+}
+
+#guess{
+    width: 60%;
+    height:2rem;
+    
+}
+#guess:hover{
+    cursor: text;
+
+}
+button{
+    background-color:palevioletred;
+    color:white;
+    width:34%;
+    border-radius:1rem;
+    padding: 0.5rem;
+    
+}
+
+button:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+
+}
+.button:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
+#enter_number{
+    width: 40%;
+    
+}
